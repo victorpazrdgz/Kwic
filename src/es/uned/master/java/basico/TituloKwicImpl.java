@@ -7,17 +7,7 @@ public class TituloKwicImpl implements Comparable<TituloKwicImpl>,TituloKwic{
 	public TituloKwicImpl(String str){
 		this.tk= str.toUpperCase();
 	}
-	public boolean equals(Object o){
-		if (o instanceof TituloKwicImpl){
-			TituloKwicImpl tk= (TituloKwicImpl) o;
-			return this.tk.equals(tk.toString());
-		}else{
-			throw new KwicException("No es un TituloKwicImpl");
-		}
-	}
-//	public int hasCode(){
-//		return this.tk.hashCode();
-//	}
+
 	public int compareTo(TituloKwicImpl tk){
 		return this.tk.compareToIgnoreCase(tk.toString());
 	}

@@ -5,9 +5,7 @@ import org.junit.jupiter.api.Test;
 
 class TituloKwicImplTest {
 
-    @Test
-    void equals() {
-    }
+
 
     @Test
     void compareTo() {
