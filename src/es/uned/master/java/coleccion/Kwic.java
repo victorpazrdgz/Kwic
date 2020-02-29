@@ -20,7 +20,7 @@ public class Kwic {
 		StringTokenizer strk= new StringTokenizer(noclaves," ,");
 
 		while (strk.hasMoreTokens()){
-			this.noclaves.add(new TituloKwic(strk.nextToken()));
+			this.noclaves.add(new TituloKwicImpl(strk.nextToken()));
 		}
 	}
 
@@ -39,8 +39,8 @@ public class Kwic {
 			 //Cariño dame ese valor de la palabra
 			frases= this.kwic.get(palabra);
 		}
-		frases.add(palabra.reemplaza(frase));
-		//frases.add(TituloKwic.reemplaza(palabra, frase));
+		frases.add(palabra.replace(frase));
+		//frases.add(TituloKwicImpl.reemplaza(palabra, frase));
 
 		// Añadiro al map como nuevo y machaco el que había.
 		this.kwic.put(palabra, frases);
@@ -57,7 +57,7 @@ public class Kwic {
 
 		while (strk.hasMoreTokens()){
 			// Primer paso para extraer la palabra de la frase
-			TituloKwic palabra= new TituloKwic(strk.nextToken());
+			TituloKwicImpl palabra= new TituloKwicImpl(strk.nextToken());
 
 			// Segundo Detectar si esa palabra es indice o no ->
 			// Si la palabra es NOCLAVE no computa nada ...no se hace me voy a la bartola ...que estoy agusto
@@ -97,7 +97,7 @@ public class Kwic {
 			return str;
 		}
  // Método para imprimir
- public String toString(){
+ public String print(){
 	 String str="";
 	 str+= this.escribeNoClaves();
 	 str+= this.escribeKwic();

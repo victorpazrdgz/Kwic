@@ -20,6 +20,6 @@ public class Driver {
 			kwic.computaIndice(frases[i]);
 		}
 
-		System.out.println("Kwic:"+kwic.toString());
+		System.out.println("Kwic:"+kwic.print());
 	}
 }
