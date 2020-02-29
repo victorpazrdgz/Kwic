@@ -17,16 +17,16 @@ public class TituloKwicImpl implements Comparable<TituloKwicImpl>,TituloKwic{
 
 	//Este metodo introduce una frase y un patrón y cambia el patron por los caracteres '...'
 
-	public String replace(String frase){
-		StringTokenizer strk= new StringTokenizer(frase," ,");
+	public String replace(String phrase){
+		StringTokenizer evaluate= new StringTokenizer(phrase," ,");
 		String resultado="";
-		while (strk.hasMoreTokens()){
-			String palabraAComparar= strk.nextToken();
-			TituloKwicImpl tk= new TituloKwicImpl(palabraAComparar);
+		while (evaluate.hasMoreTokens()){
+			String wordToCompare= evaluate.nextToken();
+			TituloKwicImpl tk= new TituloKwicImpl(wordToCompare);
 			if (this.tk.equals(tk.toString())){
 				resultado += "... ";
 			}else{
-				resultado += palabraAComparar+" ";
+				resultado += wordToCompare+" ";
 			}
 		}
 		return resultado;

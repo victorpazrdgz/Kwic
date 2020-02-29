@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1df828b5-9149-4402-b8b7-ae0d8fd90b59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/uned/master/java/coleccion/Kwic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/master/java/coleccion/Kwic.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,13 +14,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Kwic$TituloKwicImplTest.ic" NAME="TituloKwicImplTest Coverage Results" MODIFIED="1583000862422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>es.uned.master.java.basico.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="248" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -28,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/es/uned/master/java/coleccion/Kwic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+            <state relative-caret-position="127">
+              <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="137">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#167#168#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
@@ -57,11 +65,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="263">
+              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
               <folding>
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +119,7 @@
       <find>toS</find>
       <find>pala</find>
       <find>toSt</find>
+      <find>escribeKwic</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,12 +129,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwinInterface.java" />
-        <option value="$PROJECT_DIR$/src/es/uned/master/java/coleccion/Kwic.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImpl.java" />
         <option value="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwic.java" />
-        <option value="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImplTest.java" />
         <option value="$PROJECT_DIR$/src/Driver.java" />
+        <option value="$PROJECT_DIR$/src/es/uned/master/java/coleccion/Kwic.java" />
+        <option value="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImpl.java" />
+        <option value="$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImplTest.java" />
       </list>
     </option>
   </component>
@@ -222,7 +230,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582997090708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583000861597" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -259,10 +267,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TituloKwicImplTest">
     <configuration name="Kwic" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="kwic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TituloKwicImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kwic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.uned.master.java.basico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="es.uned.master.java.basico" />
+      <option name="MAIN_CLASS_NAME" value="es.uned.master.java.basico.TituloKwicImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -314,6 +337,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Kwic" />
+      <item itemvalue="JUnit.TituloKwicImplTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TituloKwicImplTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -330,11 +362,41 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TituloKwicImplTest - 2020.02.29 at 18h 10m 35s.xml">
+      <configuration name="TituloKwicImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TituloKwicImplTest - 2020.02.29 at 18h 12m 55s.xml">
+      <configuration name="TituloKwicImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TituloKwicImplTest - 2020.02.29 at 18h 14m 30s.xml">
+      <configuration name="TituloKwicImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TituloKwicImplTest - 2020.02.29 at 18h 21m 49s.xml">
+      <configuration name="TituloKwicImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TituloKwicImplTest - 2020.02.29 at 18h 23m 45s.xml">
+      <configuration name="TituloKwicImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TituloKwicImplTest - 2020.02.29 at 18h 24m 17s.xml">
+      <configuration name="TituloKwicImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TituloKwicImplTest - 2020.02.29 at 18h 24m 47s.xml">
+      <configuration name="TituloKwicImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TituloKwicImplTest - 2020.02.29 at 18h 25m 09s.xml">
+      <configuration name="TituloKwicImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TituloKwicImplTest - 2020.02.29 at 18h 25m 47s.xml">
+      <configuration name="TituloKwicImplTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11489000" />
+    <option name="totallyTimeSpent" value="14361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -345,7 +407,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49608064" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.49608064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,6 +420,7 @@
       <window_info anchor="bottom" id="AEM Console" order="12" side_tool="true" />
       <window_info anchor="bottom" id="SonarQube" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32922733" />
+      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.3294621" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,11 +442,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/es/uned/master/java/coleccion/Kwic.java</url>
-          <line>99</line>
-          <properties class="es.uned.master.java.coleccion.Kwic" method="toString">
+          <line>104</line>
+          <properties class="es.uned.master.java.coleccion.Kwic" method="print">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImplTest.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImpl.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -397,10 +472,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/es/uned/master/java/coleccion/Kwic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+        <state relative-caret-position="127">
+          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -414,17 +503,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwic.java">
+    <entry file="file://$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="263">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="137">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#167#168#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
@@ -433,24 +525,6 @@
             <element signature="e#590#591#0" expanded="true" />
             <element signature="e#611#612#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/uned/master/java/basico/TituloKwicImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
         </state>
       </provider>
     </entry>
