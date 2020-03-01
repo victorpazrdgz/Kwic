@@ -53,6 +53,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/es/uned/master/java/resources/LoadData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/es/uned/master/java/resources/films.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/es/uned/master/java/resources/loadData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

@@ -1,35 +1,68 @@
 package es.uned.master.java.basico;
 import java.util.*;
 
+/**
+ *
+ */
 public class TituloKwicImpl implements Comparable<TituloKwicImpl>,TituloKwic{
-	private String tk;
 
-	public TituloKwicImpl(String str){
-		this.tk= str.toUpperCase();
+	private String characterChain;
+
+	/**
+	 *
+	 * @param characters
+	 * @throws Exception
+	 */
+	public TituloKwicImpl(String characters) throws Exception{
+		this.characterChain= characters.toUpperCase();
 	}
 
-	public int compareTo(TituloKwicImpl tk){
-		return this.tk.compareToIgnoreCase(tk.toString());
-	}
-	public String toString(){
-		return this.tk;
+	/**
+	 *
+	 * @param chain
+	 * @return
+	 */
+	public int compareTo(TituloKwicImpl chain) {
+		Integer result = null;
+		try {
+			result = this.characterChain.compareToIgnoreCase(chain.toString());
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
-	//Este metodo introduce una frase y un patrón y cambia el patron por los caracteres '...'
+	/**
+	 *  This method return
+	 * @return
+	 */
+	public String toString() {
+		return this.characterChain;
+	}
 
+	/**
+	 * This method introduces a phrase and a pattern and changes the pattern to the characters '...'
+	 * @param phrase
+	 * @return
+	 */
 	public String replace(String phrase){
 		StringTokenizer evaluate= new StringTokenizer(phrase," ,");
-		String resultado="";
-		while (evaluate.hasMoreTokens()){
-			String wordToCompare= evaluate.nextToken();
-			TituloKwicImpl tk= new TituloKwicImpl(wordToCompare);
-			if (this.tk.equals(tk.toString())){
-				resultado += "... ";
-			}else{
-				resultado += wordToCompare+" ";
+		String result="";
+		try {
+			if (!evaluate.equals(null) || !evaluate.equals("undefined")){}
+			while (evaluate.hasMoreTokens()) {
+				String wordToCompare = evaluate.nextToken();
+				TituloKwicImpl tk = new TituloKwicImpl(wordToCompare);
+				if (this.characterChain.equals(tk.toString())) {
+					result += "... ";
+				} else {
+					result += wordToCompare + " ";
+				}
 			}
+		}catch (Exception e){
+			e.printStackTrace();
 		}
-		return resultado;
+		return result;
 	}
 
 

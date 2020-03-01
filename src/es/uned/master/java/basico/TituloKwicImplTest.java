@@ -6,17 +6,21 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class TituloKwicImplTest {
+class TituloKwicImplTest  {
 
     private String textTest = "MyTest";
     private TituloKwicImpl tituloKwic = new TituloKwicImpl(textTest);
+
+    TituloKwicImplTest() throws Exception {
+    }
+
     @BeforeEach
     public void setUp() {
 
     }
 
     @Test
-    void comparator() {
+    void comparator() throws Exception{
         String controlText = "MyTest";
         TituloKwicImpl tituloKwicControl = new TituloKwicImpl(controlText);
         int result = tituloKwicControl.compareTo(tituloKwic);

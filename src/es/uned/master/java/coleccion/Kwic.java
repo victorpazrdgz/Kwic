@@ -17,7 +17,11 @@ public class Kwic {
     /**
      * *Esta párte se tratará exclusivamente las noclaves
      */
-    public void computaNoClaves(String noclaves) {
+    /**
+     *
+     * @param noclaves
+     */
+    public void computaNoClaves(String noclaves) throws Exception {
         StringTokenizer strk = new StringTokenizer(noclaves, " ,");
 
         while (strk.hasMoreTokens()) {
@@ -30,7 +34,13 @@ public class Kwic {
      */
     // Tu solo vales para cuando una palabra SEA INDICE
     // Se utiliza con el compunta que recibe un String
-    private void computaIndice(TituloKwic palabra, String frase) {
+
+    /**
+     *
+     * @param palabra
+     * @param frase
+     */
+    private void computaIndice(TituloKwic palabra, String frase) throws Exception {
         //Necesariamente se añade al map.
         // Si esta -> Solo añado la frase en el Set
         // Si no está -> Además de la frase el índice
@@ -48,31 +58,31 @@ public class Kwic {
 
     }
 
-    // Este es yupi.
-    //Mëtodod que recibe una frase y se computa al kwic
-    // Con mucha gracia y dos pares
 
-    public void computaIndice(String frase) {
-        //Creo un Tokenizer para poder extraer palaba a palabra
-        StringTokenizer strk = new StringTokenizer(frase, " ,");
+    /**
+     * This method recieves the phrase and processes it with Kwic.
+     * First extract each word in the sentence and then check if the word is in the unimportant keys,
+     * if not add it to the index group.
+     * @param phrase
+     * @throws Exception
+     */
+    public void computaIndice(String phrase) throws Exception {
 
-        while (strk.hasMoreTokens()) {
-            // Primer paso para extraer la palabra de la frase
-            TituloKwicImpl palabra = new TituloKwicImpl(strk.nextToken());
-
-            // Segundo Detectar si esa palabra es indice o no ->
-            // Si la palabra es NOCLAVE no computa nada ...no se hace me voy a la bartola ...que estoy agusto
-            // Dame una cerveza
+        StringTokenizer characterChain = new StringTokenizer(phrase, " ,");
+        while (characterChain.hasMoreTokens()) {
+            TituloKwicImpl palabra = new TituloKwicImpl(characterChain.nextToken());
             if (!(this.noclaves.contains(palabra))) {
-                // Tercer paso -solamente para las indice- incluirlo en el kwic
-                // Ole ya llegao
-                this.computaIndice(palabra, frase);
+                this.computaIndice(palabra, phrase);
             }
         }
     }
 
+    /**
+     * This method write unimportant words in the console
+     * @return
+     */
     private String writeNoKeys() {
-        String str = "Palabras no claves: ";
+        String str = "Palabras no claves: \r\n\n";
         Iterator<TituloKwic> it = this.noclaves.iterator();
         while (it.hasNext()) {
             str += it.next().toString() + ", ";
@@ -80,17 +90,26 @@ public class Kwic {
         return str;
     }
 
-    private String writeKwic(Set<String> s) {
+    /**
+     * Auxiliary method for help to write index
+     * @param chain
+     * @return
+     */
+    private String writeKwic(Set<String> chain) {
         String str = "";
-        Iterator<String> it = s.iterator();
+        Iterator<String> it = chain.iterator();
         while (it.hasNext()) {
             str += "\t" + it.next() + "\n";
         }
         return str;
     }
 
+    /**
+     * Method for write index in the console
+     * @return
+     */
     private String writeKwic() {
-        String str = "--INDICE-"+"\n";
+        String str = "\n" + " ***** INDICE ***** \n\n";
         Iterator<Map.Entry<TituloKwic, Set<String>>> it = this.kwic.entrySet().iterator();
 
         while (it.hasNext()) {
@@ -101,10 +120,13 @@ public class Kwic {
         return str;
     }
 
-    // Método para imprimir
+    /**
+     * Method for print in console
+     * @return
+     */
     public String print() {
         String text = "";
-        text += writeNoKeys();
+        text += writeNoKeys()+"\n";
         text += writeKwic();
         return text;
     }
