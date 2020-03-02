@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
@@ -64,6 +69,51 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/es/uned/master/java/resources/loadData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../work/ofertas trabajo/MeepMovility/meep/src/main/java/com/movility/controller/PollingController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../work/ofertas trabajo/MeepMovility/meep/src/main/java/com/movility/helpers/Resources.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../work/ofertas trabajo/MeepMovility/meep/src/main/java/com/movility/meep/MeepApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../work/ofertas trabajo/MeepMovility/meep/src/main/java/com/movility/model/Client.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../work/ofertas trabajo/MeepMovility/meep/src/main/java/com/movility/model/ClientUri.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../work/ofertas trabajo/MeepMovility/meep/src/main/java/com/movility/model/Location.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../work/ofertas trabajo/MeepMovility/meep/src/main/java/com/movility/model/VehicleList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../work/ofertas trabajo/MeepMovility/meep/src/main/java/com/movility/service/PollingServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../work/ofertas trabajo/MeepMovility/meep/src/test/java/com/movility/service/PollingServiceTest.java">
           <value>
             <set />
           </value>
