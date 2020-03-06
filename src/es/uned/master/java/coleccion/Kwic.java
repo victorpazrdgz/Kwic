@@ -4,6 +4,10 @@ import java.util.*;
 
 import es.uned.master.java.basico.*;
 
+/**
+ * This class contain the methods used for calculate the words of the index.
+ * This class has been modified for use the new interface.
+ */
 public class Kwic {
     private Set<TituloKwic> noclaves;
     private Map<TituloKwic, Set<String>> kwic;

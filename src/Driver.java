@@ -2,6 +2,9 @@ import es.uned.master.java.basico.*;
 import es.uned.master.java.coleccion.*;
 import es.uned.master.java.resources.LoadData;
 
+/**
+ * Main class. In this class load the parameters from files and tell the methods init the program
+ */
 public class Driver {
     public static void main(String[] arg) throws Exception {
 
