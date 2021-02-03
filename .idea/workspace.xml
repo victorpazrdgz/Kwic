@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1df828b5-9149-4402-b8b7-ae0d8fd90b59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c807c71f3be82e04978ae2fb511121bc72fae48f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c807c71f3be82e04978ae2fb511121bc72fae48f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf69da9ba8bf87c611d7abbced3cdebdf56417ea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf69da9ba8bf87c611d7abbced3cdebdf56417ea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea231aaad176d8f1f9750c0c7a3e360c9fe3ef1c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea231aaad176d8f1f9750c0c7a3e360c9fe3ef1c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff32a866ffc101284c6ce0318c692e5b72d16fed" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff32a866ffc101284c6ce0318c692e5b72d16fed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/uned/master/java/coleccion/Kwic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/master/java/coleccion/Kwic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/es/uned/master/java/resources/LoadData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/master/java/resources/LoadData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Driver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/es/uned/master/java/coleccion/Kwic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/coleccion/Kwic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/es/uned/master/java/resources/LoadData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/resources/LoadData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/kwic-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/kwic-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,17 +75,20 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dockerfile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="es.uned.master.java.basico" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\VIPR\Desktop\Master en diseño de aplicaciones\Fundamentos Java\Kwic" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -119,53 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="kwic" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="kwic" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -191,6 +149,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -214,7 +184,16 @@
       <workItem from="1583413294377" duration="3197000" />
       <workItem from="1583489887229" duration="185000" />
       <workItem from="1583490402187" duration="1410000" />
-      <workItem from="1583494981249" duration="2720000" />
+      <workItem from="1583494981249" duration="4507000" />
+      <workItem from="1583573815682" duration="732000" />
+      <workItem from="1583601398727" duration="631000" />
+      <workItem from="1583843646577" duration="11596000" />
+      <workItem from="1583918848439" duration="2716000" />
+      <workItem from="1584004550837" duration="2927000" />
+      <workItem from="1584031364824" duration="106000" />
+      <workItem from="1584807633630" duration="1050000" />
+      <workItem from="1585310227052" duration="602000" />
+      <workItem from="1612369952452" duration="239000" />
     </task>
     <servers />
   </component>
@@ -254,6 +233,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="294" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583944086682">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="294" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583944086682" />
     <state x="645" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1583427172121">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -262,29 +245,53 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="520" y="236" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583489993579" />
-    <state width="1637" height="240" key="GridCell.Tab.0.bottom" timestamp="1583496941414">
+    <state x="620" y="263" key="FileChooserDialogImpl" timestamp="1583573957222">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="240" key="GridCell.Tab.0.bottom/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583496941414" />
-    <state width="1637" height="240" key="GridCell.Tab.0.center" timestamp="1583496941414">
+    <state x="620" y="263" key="FileChooserDialogImpl/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583573957222" />
+    <state width="1637" height="187" key="GridCell.Tab.0.bottom" timestamp="1583873137209">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="240" key="GridCell.Tab.0.center/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583496941414" />
-    <state width="1637" height="240" key="GridCell.Tab.0.left" timestamp="1583496941414">
+    <state width="1637" height="187" key="GridCell.Tab.0.bottom/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583873137209" />
+    <state width="1637" height="187" key="GridCell.Tab.0.center" timestamp="1583873137208">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="240" key="GridCell.Tab.0.left/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583496941414" />
-    <state width="1637" height="240" key="GridCell.Tab.0.right" timestamp="1583496941414">
+    <state width="1637" height="187" key="GridCell.Tab.0.center/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583873137208" />
+    <state width="1637" height="187" key="GridCell.Tab.0.left" timestamp="1583873137208">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="240" key="GridCell.Tab.0.right/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583496941414" />
+    <state width="1637" height="187" key="GridCell.Tab.0.left/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583873137208" />
+    <state width="1637" height="187" key="GridCell.Tab.0.right" timestamp="1583873137209">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="187" key="GridCell.Tab.0.right/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583873137209" />
+    <state width="1637" height="187" key="GridCell.Tab.1.bottom" timestamp="1583873137924">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="187" key="GridCell.Tab.1.bottom/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583873137924" />
+    <state width="1637" height="187" key="GridCell.Tab.1.center" timestamp="1583873137924">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="187" key="GridCell.Tab.1.center/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583873137924" />
+    <state width="1637" height="187" key="GridCell.Tab.1.left" timestamp="1583873137924">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="187" key="GridCell.Tab.1.left/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583873137924" />
+    <state width="1637" height="187" key="GridCell.Tab.1.right" timestamp="1583873137924">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="187" key="GridCell.Tab.1.right/1680.0.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1583873137924" />
+    <state x="1680" y="19" key="SettingsEditor" timestamp="1584018037871">
+      <screen x="1680" y="0" width="1366" height="728" />
+    </state>
+    <state x="1680" y="19" key="SettingsEditor/1680.0.1366.728/0.0.1680.1010@1680.0.1366.728" timestamp="1584018037871" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/es/uned/master/java/coleccion/Kwic.java</url>
-          <line>129</line>
+          <line>130</line>
           <properties class="es.uned.master.java.coleccion.Kwic" method="print">
             <option name="EMULATED" value="true" />
           </properties>
@@ -297,8 +304,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/es/uned/master/java/resources/LoadData.java</url>
-          <line>45</line>
+          <line>94</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/es/uned/master/java/resources/LoadData.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

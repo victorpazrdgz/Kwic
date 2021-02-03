@@ -1,16 +1,39 @@
 
+Q
+java:S1128"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8ôÊ‹ıŒ.
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(´àíÿÿÿÿÿ
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ôÊ‹ıŒ.
+b
+java:S2095#"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÕÃà·
+b
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÕÃà·
+b	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(úíˆñ8”ñìúŠ.
+{
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(²”×şÿÿÿÿ8ôÊ‹ıŒ.
+R
+java:S14813"0Remove this unused "parseNumber" local variable.(Î‡Áøÿÿÿÿ8ôÊ‹ıŒ.
+a
+java:S18543"?Remove this useless assignment to local variable "parseNumber".(Î‡Áøÿÿÿÿ8ôÊ‹ıŒ.
 r
-java:S1488*"]Immediately return this expression instead of assigning it to the temporary variable "films".(ğÃ²
-]	java:S125F"<This block of commented-out lines of code should be removed.( èÉıÿÿÿÿ8™åÔŠ.
-b
-java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÕÃà·
+java:S1488."]Immediately return this expression instead of assigning it to the temporary variable "films".(ğÃ²
 o
-java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(°ò¶¼
-`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(´àíÿÿÿÿÿ
-]	java:S125-"<This block of commented-out lines of code should be removed.(œÇì±ùÿÿÿÿ8™åÔŠ.
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(°ò¶¼
+U	java:S106_"9Replace this use of System.out or System.err by a logger.(‚¨Ö§8ôÊ‹ıŒ.
+{
+java:S3012:"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(‰ù¬›şÿÿÿÿ8ôÊ‹ıŒ.
+W	java:S125M"<This block of commented-out lines of code should be removed.(îœ8ôÊ‹ıŒ.
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(‘òüæ8ôÊ‹ıŒ.
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(ÍŠÊ¤üÿÿÿÿ8ôÊ‹ıŒ.
 t
-java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "nokeys".(‘Õ¯±
-X	java:S1256"<This block of commented-out lines of code should be removed.(¦œõ‚8™åÔŠ.
-b
-java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÕÃà·
-b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(úíˆñ8”ñìúŠ.
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "nokeys".(‘Õ¯±
+I
+java:S14814",Remove this unused "pattern" local variable.(ÂÒ¹Á8ôÊ‹ıŒ.
+I
+java:S1612;",Replace this lambda with a method reference.(‘òüæ8ôÊ‹ıŒ.
+G
+java:S14817"*Remove this unused "count" local variable.(æÕ¿¼8ôÊ‹ıŒ.
+Q
+java:S1066f"/Merge this if statement with the enclosing one.(À®ÓÓúÿÿÿÿ8ôÊ‹ıŒ.
+X	java:S125^"<This block of commented-out lines of code should be removed.(èËş8ôÊ‹ıŒ.
+X	java:S125T"<This block of commented-out lines of code should be removed.(ìÏ¸£8ôÊ‹ıŒ.

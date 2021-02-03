@@ -20,3 +20,7 @@ _
 /src/es/uned/master/java/resources/LoadData.java,c\f\cf69da9ba8bf87c611d7abbced3cdebdf56417ea
 [
 +src/es/uned/master/java/coleccion/Kwic.java,c\8\c807c71f3be82e04978ae2fb511121bc72fae48f
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+;
+MANIFEST.MF,f\3\f3a9ba3f2adafc412f073f9aacc1ce1c8b30b2fd
